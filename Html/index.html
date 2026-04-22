@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"> <!--mentions language of the website-->
+    <head>
+        <title>Cat Photo App</title>
+    </head>
+    <body>
+        <!---<h1>Hello World</h1>-->
+        <h2>Cat Photo App</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <!--Todo: Add link to the cat photos-->
+            <p>Click here to view more cat photos <a href="#" target="_blank">cat photos</a></p>
+            
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaqsJ6D6pAs4cTePD-stj62oINBXrM9CdXWw&s" alt="A cat just staring"></a>
+
+            <h3>Cat Lists</h3>
+            <div class="lists">
+                <p>Things cats <strong>love:</strong></p>
+                <ul>
+                    <li>Cat nap</li>
+                    <li>laser pointers</li>
+                    <li>Cat food</li>
+                </ul>
+                <img src="catsleep.jpeg" alt="cat's sleeping image">
+                <p>Thigs cats <strong>hate:</strong></p>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+            </div>
+            <img src="cathate.jpeg" alt="cats hate other cats">
+            <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked>indoor</label><br>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" >outdoor</label><br>
+
+                <label for="loving"><input id="loving" type="checkbox" name="personality" checked>loving</label><br>
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality">lazy</label><br>
+                <label for="active"><input id="active" type="checkbox" name="personality">active</label><br>
+                
+                <input type="text" placeholder="cat photo url" required><br>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p>No copyrights - <a href="www.amazon.com">Learning basics of html</a></p>
+        </footer>
+    </body>
+</html>
+
+
+<!--target=_blank makes it open the link in the new tab-->
