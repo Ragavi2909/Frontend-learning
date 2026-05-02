@@ -1,39 +1,24 @@
-h5{
-    color: aqua;
+/*htmlcolorcodes.com=>for getting colour names*/
+
+#hello {
+    color: #46784E;  /*using hexadecimal value we can assign colors*/
 }
 
-h3{
-    font-size: large;                        /*tags selector*/
+#meow{
+    color: rgb(255, 0, 0);  /*using rgb values-can get any colors from the combination of these 3 colors*/
 }
 
-
-
-#welcome{
-    color: lightsalmon;                 /*id selector*/
-    font-size: 36px;
+#story{
+    color: rgba(255,0,0,0.5); /*rgba where a is alpha - means opacity that is transparency*/
 }
 
-
-h3,p.learn{
-    color:chartreuse;
-    font-size: 40px;                    /*class selector =>.classname*/
+#sat{
+    color: hsl(322, 81, 43); /*hue saturation light*/
 }
 
-* {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        /*universal selector*/
+#hi{
+    color:cadetblue;
+    opacity:50%;
 }
 
-h5,p{
-    font-display: block;         /*grouping selector*/
-}
-
-
-
-/* simple selector types
-    1.tags selector
-    2.id selector  =>   using id we can access the css property (id selector -> #idname) id-unique
-    3.class selector => class-not unique [tag+class]
-    4.universal selector
-    5.grouping selector
-
-    */
+/*there is also like hue saturation light with alpha hsla*/
