@@ -1,3 +1,39 @@
 h5{
     color: aqua;
 }
+
+h3{
+    font-size: large;                        /*tags selector*/
+}
+
+
+
+#welcome{
+    color: lightsalmon;                 /*id selector*/
+    font-size: 36px;
+}
+
+
+h3,p.learn{
+    color:chartreuse;
+    font-size: 40px;                    /*class selector =>.classname*/
+}
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        /*universal selector*/
+}
+
+h5,p{
+    font-display: block;         /*grouping selector*/
+}
+
+
+
+/* simple selector types
+    1.tags selector
+    2.id selector  =>   using id we can access the css property (id selector -> #idname) id-unique
+    3.class selector => class-not unique [tag+class]
+    4.universal selector
+    5.grouping selector
+
+    */
