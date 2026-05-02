@@ -1,17 +1,26 @@
+body{
+    margin: 50px;
+}
+
+
 h1{
-    /* border-style: dashed; */
-    /* border-style: inset; */
-    /* border-style: outset; */
-    /* border-style: dotted dashed solid double;   order is top right bottom left */
-    /* border-style: dotted solid; in the order of topandbottom followed by leftandright */
-    border-style: solid;
-    /* border-width: 5px 16px 10px 20px; border thickness */
-    border-width: thick;
-    border-color: red green magenta yellow;
-    border-radius: 10px 0px 4px 20px; /*its about borders starts at lefttop, righttop, bottomright, bottomleft*/
-
-    
+    /* margin: 50px;              all sides will be equal*/
+    /* margin: 20px 100px;             topandbottom followed by leftandright */
+    /* margin:30px 20px 60px;              top , leftandright, bottom */
+    /* margin: 10px 20px 30px 40px;            top,right,bottom,left */
 
 
+    /*give seprately*/
+    /* margin-top: 20px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    margin-left: 100px; */
 
+
+    /* margin:auto; */
+    margin: inherit;  /*inherit will get the characteristics from the parent , here h1's parent is body , so margin becomes
+                        50px*/
+    width: 200px; /*if i give margin as auto and width with some px , it will align in center*/
+    border: 10px solid;
+    padding: 30px;  /*inside space*/   /*margin-outside space*/
 }
