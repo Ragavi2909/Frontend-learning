@@ -1,24 +1,21 @@
-/*htmlcolorcodes.com=>for getting colour names*/
-
-#hello {
-    color: #46784E;  /*using hexadecimal value we can assign colors*/
+#hello{
+    background-color: magenta;
 }
 
 #meow{
-    color: rgb(255, 0, 0);  /*using rgb values-can get any colors from the combination of these 3 colors*/
+    background-image: url("https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg");
+    color: white;
 }
 
-#story{
-    color: rgba(255,0,0,0.5); /*rgba where a is alpha - means opacity that is transparency*/
-}
+body {
+    /* background-image: url("https://www.shutterstock.com/image-photo/sun-sets-behind-mountain-ranges-600nw-2479236003.jpg");
+    background-repeat: no-repeat; /*for not repeating images*/
+    /* background-position: right bottom;
+    background-attachment: fixed; the image is fixed and not moves */
+   /* background-repeat: repeat-x; /*repeats image in x axis alone*/
+    /*background-repeat: repeat-y; repeats image in y axis alone */
 
-#sat{
-    color: hsl(322, 81, 43); /*hue saturation light*/
-}
 
-#hi{
-    color:cadetblue;
-    opacity:50%;
+    /*simply we can write in single line like*/
+    background: url("https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg") no-repeat right;
 }
-
-/*there is also like hue saturation light with alpha hsla*/
