@@ -1,21 +1,17 @@
-#hello{
-    background-color: magenta;
-}
+h1{
+    /* border-style: dashed; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: dotted dashed solid double;   order is top right bottom left */
+    /* border-style: dotted solid; in the order of topandbottom followed by leftandright */
+    border-style: solid;
+    /* border-width: 5px 16px 10px 20px; border thickness */
+    border-width: thick;
+    border-color: red green magenta yellow;
+    border-radius: 10px 0px 4px 20px; /*its about borders starts at lefttop, righttop, bottomright, bottomleft*/
 
-#meow{
-    background-image: url("https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg");
-    color: white;
-}
-
-body {
-    /* background-image: url("https://www.shutterstock.com/image-photo/sun-sets-behind-mountain-ranges-600nw-2479236003.jpg");
-    background-repeat: no-repeat; /*for not repeating images*/
-    /* background-position: right bottom;
-    background-attachment: fixed; the image is fixed and not moves */
-   /* background-repeat: repeat-x; /*repeats image in x axis alone*/
-    /*background-repeat: repeat-y; repeats image in y axis alone */
+    
 
 
-    /*simply we can write in single line like*/
-    background: url("https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg") no-repeat right;
+
 }
