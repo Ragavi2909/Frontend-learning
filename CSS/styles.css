@@ -1,26 +1,25 @@
-body{
-    margin: 50px;
-}
+/* body{
+    width: 100%;
+    height: 200px;
+
+} */
 
 
 h1{
-    /* margin: 50px;              all sides will be equal*/
-    /* margin: 20px 100px;             topandbottom followed by leftandright */
-    /* margin:30px 20px 60px;              top , leftandright, bottom */
-    /* margin: 10px 20px 30px 40px;            top,right,bottom,left */
+    border: 1px solid ;
+    /* height: 100px;
+    width: 50px;  px is recommended*/
+    /* height: 100cm;
+    width: 50cm; */
+    /* height: 10%; */
+    font-size: 100px;
+    /* height: auto; height will be managed according to the text size */
+    /* height: inherit; */
 
-
-    /*give seprately*/
-    /* margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 30px;
-    margin-left: 100px; */
-
-
-    /* margin:auto; */
-    margin: inherit;  /*inherit will get the characteristics from the parent , here h1's parent is body , so margin becomes
-                        50px*/
-    width: 200px; /*if i give margin as auto and width with some px , it will align in center*/
-    border: 10px solid;
-    padding: 30px;  /*inside space*/   /*margin-outside space*/
+    height: 100px;
+    max-height: 50px;
+    max-width: 20px;
+    min-height: 150px;
+    min-width: 200px;
+    width: 30%;         
 }
