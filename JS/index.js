@@ -1,5 +1,10 @@
 //js is all about how the website behaves whereas html is what are the contents should be on the website
-//console.log('hello world');
+//One prominent library that uses JavaScript is React (or React.js)
+//js initially named as typescript, but that time java was boomed which is the reason for changing the name
+//shift+alt+A for multiline commenting using selecting all
+
+
+// console.log('hello world');
 
 
 //VARIABLES
@@ -11,8 +16,21 @@ rules:-
   -should be meaningful
   -not to start with number
   -should not contain space or hyphen -> use camelNotation
-  -js are case sensitive*/
+  -js are case sensitive
+  -variables name should not be repeated again
+  -$ and _ signs are only allowed*/
 
+//variable declaration
+// let bookName;
+// //variable initialization
+// bookname = 'Harry Potter';
+// console.log(bookname);
+
+//eg
+// let studentName, name;
+// studentName = 'Ragavi Rajesh';
+// name = studentName; //initializing variable using another variables
+// console.log(name);
 
 
 
@@ -27,6 +45,10 @@ rules:-
 //   console.log(goldRate);
 //   //Note => we cant reassign the const values and throws errormsg
 
+//eg:
+// const AGE = 22;
+// const DOB = '29-09-2003';
+// console.log(AGE, DOB);
 
 
 
@@ -126,17 +148,22 @@ rules:-
 
 
 //performing a task
-function greet(name,lastName){
-  console.log('hello '+ name +' '+lastName);
-}
+// function greet(name,lastName){
+//   console.log('hello '+ name +' '+lastName);
+// }
 
-greet('John','Smith'); //where john is argument and name is parameter
+// greet('John','Smith'); //where john is argument and name is parameter
 
 
 
-//calculating a value
-function square(number){
-   return number*number;
-}
-let number = square(2);
-console.log(number);
+// //calculating a value
+// function square(number){
+//    return number*number;
+// }
+// let number = square(2);
+// console.log(number);
+
+
+
+
+
