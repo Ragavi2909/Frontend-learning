@@ -96,4 +96,47 @@ rules:-
 
 
 
+//ARRAYS
+// let selectedColors = ['red','blue'];
+// console.log(selectedColors);
+// console.log(selectedColors[0]);
+// selectedColors[2] = 'pink';
+// console.log(selectedColors);
+// //NOTE-> in js we can store different type in an array
+// selectedColors[3] = 29;
+// console.log(selectedColors);
+// console.log(selectedColors.length);
 
+
+
+
+
+
+
+
+
+
+
+
+//FUNCTIONS
+// function greet(){
+//   console.log('Namaste');
+// }
+// greet();
+
+
+//performing a task
+function greet(name,lastName){
+  console.log('hello '+ name +' '+lastName);
+}
+
+greet('John','Smith'); //where john is argument and name is parameter
+
+
+
+//calculating a value
+function square(number){
+   return number*number;
+}
+let number = square(2);
+console.log(number);
