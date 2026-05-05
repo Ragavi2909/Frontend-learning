@@ -52,6 +52,7 @@ rules:-
 
 
 
+//DATA TYPES
 // //1.Primtive types/ Value types
 //     -Strings
 //     -Number
