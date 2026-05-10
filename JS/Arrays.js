@@ -1,61 +1,61 @@
-// //Arrays - list of values - here an array have different dt
+//Arrays - list of values - here an array have different dt
 
-// //array declaration and initialization in different ways
-// let veggies = new Array(); //or let veggies = []; (or) //let veggies = ['tomato','potato','brinjal'];
-// console.log(typeof(veggies)); //prints object
-
-
-// veggies = ['tomato','potato','brinjal'];
-// console.log(veggies);  //prints ['tomato','potato','brinjal']
-
-// //0 based indexing
-// console.log(veggies[0]); //prints tomato that is first element
+//array declaration and initialization in different ways
+let veggies = new Array(); //or let veggies = []; (or) //let veggies = ['tomato','potato','brinjal'];
+console.log(typeof(veggies)); //prints object
 
 
-// //here an array have different dt - here is an example
-// let fruits = ['apple','pear','banana', null, undefined, true]; //we can store objects and functions inside 
-// console.log(fruits[4]); //prints undefined
+veggies = ['tomato','potato','brinjal'];
+console.log(veggies);  //prints ['tomato','potato','brinjal']
+
+//0 based indexing
+console.log(veggies[0]); //prints tomato that is first element
 
 
-// let fruits = ['apple','pear','banana'];
-// fruits[3] = 'strawberry'; //adds strawberry in fruits
+//here an array have different dt - here is an example
+let fruits = ['apple','pear','banana', null, undefined, true]; //we can store objects and functions inside 
+console.log(fruits[4]); //prints undefined
 
 
-// fruits.push('strawberry'); //same like above
-// console.log(fruits); //prints [ 'apple', 'pear', 'banana', 'strawberry', 'strawberry' ]
+let fruits = ['apple','pear','banana'];
+fruits[3] = 'strawberry'; //adds strawberry in fruits
 
 
-// fruits.unshift('jamun'); //unshift adds element at the first
-// console.log(fruits);  //prints [ 'jamun', 'apple', 'pear', 'banana', 'strawberry', 'strawberry' ]
+fruits.push('strawberry'); //same like above
+console.log(fruits); //prints [ 'apple', 'pear', 'banana', 'strawberry', 'strawberry' ]
 
 
-// fruits.pop(); //pops the last element
-// console.log(fruits); //prints [ 'jamun', 'apple', 'pear', 'banana', 'strawberry' ]
+fruits.unshift('jamun'); //unshift adds element at the first
+console.log(fruits);  //prints [ 'jamun', 'apple', 'pear', 'banana', 'strawberry', 'strawberry' ]
 
 
-// fruits.shift(); //removes the first element
-// console.log(fruits); //prints  [ 'apple', 'pear', 'banana', 'strawberry' ]
+fruits.pop(); //pops the last element
+console.log(fruits); //prints [ 'jamun', 'apple', 'pear', 'banana', 'strawberry' ]
 
 
-
-// //to access all element at once in an array
-// for(fru of fruits){
-//     console.log(fru);
-// }
-// /* prints like this => apple
-// pear
-// banana
-// strawberry */
+fruits.shift(); //removes the first element
+console.log(fruits); //prints  [ 'apple', 'pear', 'banana', 'strawberry' ]
 
 
 
-// //to find the length of an array
-// console.log(fruits.length); //prints 4 here
+//to access all element at once in an array
+for(fru of fruits){
+    console.log(fru);
+}
+/* prints like this => apple
+pear
+banana
+strawberry */
 
 
-// //we can also like this
-// let animals = new Array('cat','dog','cow');
-// console.log(animals); //prints [ 'cat', 'dog', 'cow' ]
+
+//to find the length of an array
+console.log(fruits.length); //prints 4 here
+
+
+//we can also like this
+let animals = new Array('cat','dog','cow');
+console.log(animals); //prints [ 'cat', 'dog', 'cow' ]
 
 
 
