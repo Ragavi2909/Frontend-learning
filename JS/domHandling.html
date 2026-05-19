@@ -1,0 +1,30 @@
+<!----dom => Document Object Model--->
+<html>
+    <head>
+        <title>code io</title>
+    </head>
+    <body>
+        <h1 id="head">DOM HANDLING</h1>
+        <div id="box" class="dove">
+
+        </div>
+    </body>
+    <script>
+        //console.log(document.title); //prints codeio in inspect console page
+        //let element = document.getElementById('box'); //getElementById is used for extracting elements
+        let element = document.getElementsByTagName('h1');
+        let element = document.getElementByClassName('dove');
+        let element = document.querySelector('h1');
+        
+
+
+        // element.className = 'bodyClass';   //adding a classname
+        // element.style.color = 'red';   //add color for text
+        // element.style.backgroundColor = 'yellow'; //add background color
+
+
+        // //element.textContent += ' Youtube';
+        // element.innerHTML = '<p> Hi Hi Hi </p>';
+        // console.log(element.textContent); //prints Dom Handling Youtube
+    </script>
+</html>
