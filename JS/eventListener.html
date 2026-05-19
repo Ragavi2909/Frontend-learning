@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>codeio</title>
+    </head>
+    <body>
+        <!------<button id="sj">Irukku</button> <!--this line for mouse used----------->
+        <button id="sj">1</button> <!--this line for keyboard-->
+    </body>
+    <script>
+        let btn = document.getElementById('sj');//storing the above btn in a variable
+
+
+        //MOUSE EVENTS
+        //whether we clicked the btn, for that we are going to add an event listener
+        btn.addEventListener('click', (event)=>{
+            btn.textContent = 'Ana illa';
+            console.log('clicked');
+        });
+
+        btn.addEventListener('mouseover', (event)=>{
+            btn.textContent = 'irukkumo';
+            console.log('hover');
+        });
+
+        btn.addEventListener('mouseout', (event)=>{
+            btn.textContent = 'Irukku';
+            console.log('mouseout');
+        });
+
+
+
+        //KEYBOARD EVENTS
+        document.addEventListener('keydown', (event)=>{   //btn to document for keyboard
+            
+            console.log(event.key);  //event.key is for which key is being pressed
+            switch(event.key){
+                case 'ArrowUp':
+                    btn.textContent = Number(btn.textContent)+1;
+                    break;
+                case 'ArrowDown':
+                    btn.textContent = Number(btn.textContent)-1;
+                    break;
+            }
+        });
+
+
+    </script>
+</html>
